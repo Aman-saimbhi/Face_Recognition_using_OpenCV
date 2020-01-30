@@ -11,3 +11,5 @@ Face_predict.py : This file performs the predictions and draw a bounding box aro
 on the openCV frame. This script uses the encodings calculated previously. The encodings of the face in the frame are 
 calculated and then the cosine or euclidean distance is calculated between this face and the stored encodings, if the 
 distance is less than a threshold value then we say the faces are similar and hence the name is displayed.
+
+cleaning.py : This file only has some pre-processing steps for the images in the directory.
